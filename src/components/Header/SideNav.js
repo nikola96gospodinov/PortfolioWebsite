@@ -2,6 +2,7 @@ import React from 'react'
 import SideNav from 'react-simple-sidenav'
 
 import SideNavItems from './sideNav_items'
+import Social from './Social'
 
 const SideNavigation = (props) => {
     return (
@@ -15,6 +16,7 @@ const SideNavigation = (props) => {
                 }}
             >
                 <SideNavItems/>
+                <Social/>
             </SideNav>
         </div>
     )
