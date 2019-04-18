@@ -28,16 +28,7 @@ const Footer = () => {
                 </p>
                 <Link
                     to = "/about"
-                    style = {{
-                        color: '#ccc',
-                        border: '2px solid #ccc',
-                        padding: '.7rem 1rem',
-                        display: 'inline-block',
-                        width: '100%',
-                        textAlign: 'center',
-                        cursor: 'pointer',
-                        fontSize: '1.1rem'
-                    }}
+                    className = "LearnMoreButton"
                 ><b>Learn More!</b></Link>
             </div>
             <div className = "column">
@@ -58,7 +49,7 @@ const Footer = () => {
                     <div>
                         <FontAwesome
                             name = "street-view"
-                            style = {iconStyle}
+                            className = "iconFooter"
                         />
                     </div>
                     <div>
@@ -83,7 +74,7 @@ const Footer = () => {
                     <div>
                         <FontAwesome
                             name = "envelope"
-                            style = {iconStyle}
+                            className = "iconFooter"
                         />
                     </div>
                     <div>
@@ -108,7 +99,7 @@ const Footer = () => {
                     <div>
                         <FontAwesome
                             name = "phone"
-                            style = {iconStyle}
+                            className = "iconFooter"
                         />
                     </div>
                     <div>
@@ -130,10 +121,10 @@ const Footer = () => {
                     style = {hrStyle}
                 />
                 <ul>
-                    <li style = {listStyle}><Link to = "/home" style = {linkStyle}>Home</Link></li>
-                    <li style = {listStyle}><Link to = "/skills" style = {linkStyle}>Skils</Link></li>
-                    <li style = {listStyle}><Link to = "/projects" style = {linkStyle}>Projects</Link></li>
-                    <li style = {listStyle}><Link to = "/about" style = {linkStyle}>About</Link></li>
+                    <li style = {listStyle}><Link to = "/home" className = "navigateLinks">Home</Link></li>
+                    <li style = {listStyle}><Link to = "/skills" className = "navigateLinks">Skils</Link></li>
+                    <li style = {listStyle}><Link to = "/projects" className = "navigateLinks">Projects</Link></li>
+                    <li style = {listStyle}><Link to = "/about" className = "navigateLinks">About</Link></li>
                 </ul>
             </div>
         </footer>
@@ -151,13 +142,6 @@ const hrStyle = {
     marginBottom: '.8rem'
 }
 
-const iconStyle = {
-    fontSize: '2.5rem',
-    padding: '1rem',
-    color: '#ccc',
-    border: '1px solid #ccc'
-}
-
 const secondaryHeaderStyle = {
     color: '#ccc',
     fontSize: '1.5rem'
@@ -171,13 +155,6 @@ const tertieryHeadingStyle = {
 const listStyle = {
     listStyle: 'none',
     marginBottom: '.8rem'
-}
-
-const linkStyle = {
-    textDecoration: 'none',
-    color: '#eee',
-    fontSize: '1.2rem',
-    cursor: 'pointer'
 }
 
 export default Footer
