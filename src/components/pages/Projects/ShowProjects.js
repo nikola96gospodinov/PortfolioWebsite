@@ -112,16 +112,7 @@ const ShowProjects = () => {
                             <a
                                 target="_blank"
                                 href = {item.gitHubLink}
-                                style = {{
-                                    marginLeft: '.75rem',
-                                    marginBottom: '.75rem',
-                                    marginRight: '.75rem',
-                                    padding: '.5rem',
-                                    border: '1px solid #222',
-                                    color: '#222',
-                                    fontSize: '1.2rem',
-                                    borderRadius: '15px'
-                                }}
+                                className = "ProjectsButtons"
                             >View on GitHub</a>
                             : null
                         }
@@ -130,16 +121,7 @@ const ShowProjects = () => {
                             <a
                                 target="_blank"
                                 href = {item.webPageLink}
-                                style = {{
-                                    marginLeft: '.75rem',
-                                    marginBottom: '.75rem',
-                                    marginRight: '.75rem',
-                                    padding: '.5rem',
-                                    border: '1px solid #222',
-                                    color: '#222',
-                                    fontSize: '1.2rem',
-                                    borderRadius: '15px'
-                                }}
+                                className = "ProjectsButtons"
                             >View Online</a>
                             : null
                         }
