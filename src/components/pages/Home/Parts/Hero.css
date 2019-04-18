@@ -13,9 +13,13 @@
 
 .heroHomeButton {
     position: absolute;
-    top: 90%;
+    top: 88%;
     font-size: 1.5rem;
     cursor: pointer;
+}
+
+.arrowDownHero {
+    color: #fff;
 }
 
 @media (max-width: 600px){

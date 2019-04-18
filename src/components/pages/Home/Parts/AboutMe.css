@@ -44,6 +44,22 @@
     margin: auto 0 auto 2.5rem;
 }
 
+.buttonAboutHome {
+    color: #333;
+    font-size: 1.4rem;
+    display: inline-block;
+    width: 95%;
+    text-align: center;
+    border: solid 1.2px #333;
+    padding: 1rem 2rem;
+    font-weight: 500;
+}
+
+.buttonAboutHome:hover {
+    background: #333;
+    color: #ccc;
+}
+
 @media (max-width: 1200px) {
 
     .containerMainAbout {
