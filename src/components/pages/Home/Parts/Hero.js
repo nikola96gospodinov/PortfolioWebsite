@@ -42,10 +42,9 @@ const Hero = () => {
                         color: '#fff'
                     }}
                 >Learn More</p>
-                <FontAwesome name = "arrow-down"
-                    style = {{
-                        color: '#fff'
-                    }}
+                <FontAwesome 
+                    name = "arrow-down"
+                    className = "arrowDownHero"
                 />
             </a>
         </div>

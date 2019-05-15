@@ -45,6 +45,38 @@
     font-size: 1.4rem;
 }
 
+.boringSkillsHome {
+    color: #333;
+    border: 2px solid #333;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.unboringSkillsHome {
+    color: #ccc;
+    border: 2px solid #ccc;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.unboringSkillsHome:hover {
+    background: #ccc;
+    color: #333;
+}
+
+.boringSkillsHome:hover {
+    background: #333;
+    color: #ccc;
+}
+
 @media (max-width: 1200px) {
     .mainContainer {
         height: auto;

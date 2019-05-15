@@ -32,11 +32,11 @@ const ShowProjects = () => {
                 "CSS",
                 "SASS",
                 "JavaScript"
-        ],
+            ],
             gitHub: true,
             gitHubLink: "https://github.com/nikola96gospodinov/thcdreams",
-            webpage: false,
-            webPageLink: ""
+            webpage: true,
+            webPageLink: "https://nikola96gospodinov.github.io/thcdreams/"
         },
         {
             pic: Portfolio,
@@ -60,7 +60,7 @@ const ShowProjects = () => {
                 <div
                     key = {i}
                     style = {{
-                        margin: '4rem 0',
+                        margin: '4rem 0 0 0',
                         boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
                         background: '#ddd',
                         width: '100%'
@@ -112,16 +112,7 @@ const ShowProjects = () => {
                             <a
                                 target="_blank"
                                 href = {item.gitHubLink}
-                                style = {{
-                                    marginLeft: '.75rem',
-                                    marginBottom: '.75rem',
-                                    marginRight: '.75rem',
-                                    padding: '.5rem',
-                                    border: '1px solid #222',
-                                    color: '#222',
-                                    fontSize: '1.2rem',
-                                    borderRadius: '15px'
-                                }}
+                                className = "ProjectsButtons"
                             >View on GitHub</a>
                             : null
                         }
@@ -130,16 +121,7 @@ const ShowProjects = () => {
                             <a
                                 target="_blank"
                                 href = {item.webPageLink}
-                                style = {{
-                                    marginLeft: '.75rem',
-                                    marginBottom: '.75rem',
-                                    marginRight: '.75rem',
-                                    padding: '.5rem',
-                                    border: '1px solid #222',
-                                    color: '#222',
-                                    fontSize: '1.2rem',
-                                    borderRadius: '15px'
-                                }}
+                                className = "ProjectsButtons"
                             >View Online</a>
                             : null
                         }

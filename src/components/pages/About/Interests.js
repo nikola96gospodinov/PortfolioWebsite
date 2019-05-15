@@ -86,28 +86,16 @@ const Interests = () => {
                 >
                     <Link
                         to = "/skills"
-                        style = {buttonStyle}
+                        className = "aboutButtons"
                     >Skills</Link>
                     <Link
                         to = "projects"
-                        style = {buttonStyle}
+                        className = "aboutButtons"
                     >Projects</Link>
                 </div>
             </div>
         </div>
     )
-}
-
-const buttonStyle = {
-    fontSize: '1.6rem',
-    border: '1.5px solid #333',
-    textAlign: 'center',
-    display: 'inline-block',
-    width: '100%',
-    padding: '1rem', 
-    fontWeight: '600',
-    color: '#333',
-    marginBottom: '1.5rem'
 }
 
 const listStyle = {

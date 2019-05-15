@@ -55,16 +55,7 @@ const AboutMe = () => {
                     </p>
                     <Link
                         to = "/about"
-                        style = {{
-                            color: '#333',
-                            fontSize: '1.4rem',
-                            display: 'inline-block',
-                            width: '95%',
-                            textAlign: 'center',
-                            border: 'solid 1.2px #333',
-                            padding: '1rem 2rem',
-                            fontWeight: '500'
-                        }}
+                        className = "buttonAboutHome"
                     >Discover More!</Link>
                 </div>
                 <div 

@@ -19,6 +19,38 @@
     text-align: right;
 }
 
+.boringSkillsSkills {
+    color: #ccc;
+    border: 2px solid #ccc;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.boringSkillsSkills:hover {
+    color: #333;
+    background: #ccc;
+}
+
+.unboringSkillsSkills {
+    color: #333;
+    border: 2px solid #333;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.unboringSkillsSkills:hover {
+    color: #ccc;
+    background: #333;
+}
+
 @media (max-width: 600px) {
     .skillsPageDiv {
         display: block;

@@ -5,7 +5,11 @@ class ProjectItems extends Component {
 
     render(){
         return (
-            <div>
+            <div
+                style = {{
+                    marginBottom: "4rem"
+                }}
+            >
                 <ShowProjects/>
             </div>
         )

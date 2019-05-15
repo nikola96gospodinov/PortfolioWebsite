@@ -27,6 +27,13 @@
         margin-bottom: 4rem;
 }
 
+.buttonLeft:hover {
+    background: #ccc;
+    color: #333;
+    border: 2px solid #333;
+    border-right: none;
+}
+
 .buttonRight {
     color: #333;
     border: 2px solid #333;
@@ -36,6 +43,13 @@
     font-weight: 600;
     display: inline-block;
     margin-bottom: 4rem;
+}
+
+.buttonRight:hover {
+    background: #333;
+    color: #ccc;
+    border: 2px solid #ccc;
+    border-left: none;
 }
 
 @media (max-width: 1200px){
